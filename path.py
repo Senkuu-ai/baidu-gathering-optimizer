@@ -1,7 +1,7 @@
 import folium
 
 origins = [(114.054037, 22.567977), (114.101319, 22.542184), (114.230907, 22.736640)]
-best_point = (114.07317542105262, 22.605001631578947)
+best_point = (114.12875433333333, 22.638933666666667)
 
 m = folium.Map(location=[best_point[1], best_point[0]], zoom_start=12)
 for i, origin in enumerate(origins):
